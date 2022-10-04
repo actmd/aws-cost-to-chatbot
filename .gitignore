@@ -1,5 +1,6 @@
 # temporary lambda files that doesn't need to be committed
 function.zip
+out.json
 
 # Logs
 logs
