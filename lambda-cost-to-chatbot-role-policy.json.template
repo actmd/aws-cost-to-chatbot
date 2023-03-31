@@ -12,8 +12,10 @@
     },
     {
       "Effect": "Allow",
-      "Action": "ce:GetCostAndUsage",
-      "Action": "aws-portal:ViewBilling",
+      "Action": [
+        "ce:GetCostAndUsage",
+        "aws-portal:ViewBilling"
+      ],
       "Resource": "*"
     },
     {
